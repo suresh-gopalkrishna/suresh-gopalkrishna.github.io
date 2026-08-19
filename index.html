@@ -1,296 +1,193 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Dr.-Ing. Suresh Gopalkrishna — computational scientist specialising in thermal simulation, inverse problems and scientific machine learning.">
-<title>Dr.-Ing. Suresh Gopalkrishna | Simulation & Scientific ML</title>
-<link rel="stylesheet" href="assets/style.css">
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suresh Babu Gopalkrishna — Simulation & ML Engineer</title>
+<meta name="description" content="Portfolio of Dr.-Ing. Suresh Babu Gopalkrishna — thermal simulation, inverse heat conduction and physics-informed machine learning.">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 
-<header class="hero">
-  <nav class="nav" aria-label="Main navigation">
-    <a class="brand" href="#top">SG</a>
-    <div>
-      <a href="#about">About</a>
-      <a href="#expertise">Expertise</a>
-      <a href="#experience">Experience</a>
-      <a href="#publications">Publications</a>
-      <a href="#cv">CV</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
+<a href="#main" class="visually-hidden">Skip to content</a>
 
-  <div id="top" class="hero-content">
-    <p class="eyebrow">THERMAL ENGINEERING · SCIENTIFIC MACHINE LEARNING</p>
-
-    <h1>Dr.-Ing. Suresh Gopalkrishna</h1>
-
-    <p class="lead">
-      Computational scientist developing reliable simulation and inverse-modeling
-      methods for complex thermal systems.
-    </p>
-
-    <div class="actions">
-      <a class="button primary" href="mailto:suresh.gopalkrishna@icloud.com">
-        Get in touch
-      </a>
-
-      <a class="button secondary"
-         href="assets/SureshGopalkrishna_CV.pdf"
-         target="_blank"
-         rel="noopener">
-        Download CV (PDF)
-      </a>
-
-      <a class="button secondary"
-         href="https://github.com/suresh-gopalkrishna"
-         target="_blank"
-         rel="noopener">
-        View GitHub
-      </a>
+<nav class="site-nav">
+  <div class="wrap">
+    <div class="brand">
+      Suresh Babu Gopalkrishna
+      <small>Simulation &amp; ML Engineer</small>
     </div>
 
-    <ul class="facts">
-      <li>Based near Munich, Germany</li>
-      <li>Dr.-Ing., magna cum laude</li>
-      <li>Open to R&amp;D, simulation and research roles</li>
+    <ul class="nav-links">
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Courses &amp; Certifications</a></li>
     </ul>
-  </div>
-</header>
 
-<main>
+    <div class="nav-controls">
+      <div class="view-toggle" role="group" aria-label="Portfolio focus">
+        <button type="button" data-view="research" aria-pressed="false">Research</button>
+        <button type="button" data-view="industry" aria-pressed="false">Industry</button>
+      </div>
 
-<section id="about" class="section two-column">
-  <div>
-    <p class="eyebrow">PROFILE</p>
-    <h2>Physics, computation, and validation.</h2>
-  </div>
-
-  <div>
-    <p>
-      I am a computational scientist with approximately eight years of experience
-      in multiphysics simulation and thermal analysis. My work combines finite-element
-      and CFD-style modelling with laboratory experiments, inverse heat-transfer
-      methods, and scientific machine learning.
-    </p>
-
-    <p>
-      I am particularly interested in physics-informed neural networks (PINNs)
-      and surrogate models that make high-fidelity engineering simulations faster
-      and more useful for real-world decisions.
-    </p>
-  </div>
-</section>
-
-<section id="expertise" class="section muted">
-  <div class="container">
-    <p class="eyebrow">CORE EXPERTISE</p>
-    <h2>From thermal experiments to predictive models.</h2>
-
-    <div class="cards">
-      <article>
-        <h3>Thermal simulation</h3>
-        <p>
-          Transient thermal and thermomechanical modelling using ANSYS Mechanical,
-          ANSYS Fluent, COMSOL Multiphysics and STAR-CCM+.
-        </p>
-      </article>
-
-      <article>
-        <h3>Inverse problems &amp; ML</h3>
-        <p>
-          Inverse heat conduction, Physics-Informed Neural Networks, data-driven
-          modelling, and surrogate-model concepts in Python and TensorFlow.
-        </p>
-      </article>
-
-      <article>
-        <h3>Experimental validation</h3>
-        <p>
-          Infrared thermography, transient temperature measurement, test-set-up
-          development, and rigorous model–experiment comparison.
-        </p>
-      </article>
+      <div class="palette-picker">
+        <button type="button" class="palette-toggle" id="paletteToggle" aria-haspopup="true" aria-expanded="false">
+          <span class="swatch-preview" id="paletteSwatchPreview"></span>
+          <span class="palette-toggle-label">Theme</span>
+        </button>
+        <div class="palette-menu" id="paletteMenu" role="menu"></div>
+      </div>
     </div>
   </div>
-</section>
+</nav>
 
-<section id="experience" class="section">
-  <div class="container">
-    <p class="eyebrow">SELECTED EXPERIENCE</p>
-    <h2>Research with engineering relevance.</h2>
+<main id="main">
 
-    <div class="timeline">
-      <article>
-        <p class="date">2023 — PRESENT</p>
+  <!-- ================= HERO ================= -->
+  <header class="hero">
+    <svg class="hero-isotherm" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M60 380 C 120 300, 90 200, 200 150 C 300 100, 380 140, 420 220 C 460 300, 420 380, 340 400 C 260 420, 120 440, 60 380 Z" stroke="var(--accent)" stroke-width="1.4" opacity="0.28"/>
+      <path d="M110 360 C 150 300, 140 220, 220 180 C 300 140, 360 170, 390 230 C 420 290, 390 350, 330 365 C 270 380, 160 400, 110 360 Z" stroke="var(--accent)" stroke-width="1.4" opacity="0.4"/>
+      <path d="M160 335 C 190 290, 185 235, 245 205 C 305 175, 345 200, 365 245 C 385 290, 365 330, 320 340 C 275 350, 195 365, 160 335 Z" stroke="var(--accent)" stroke-width="1.6" opacity="0.55"/>
+      <path d="M205 310 C 225 280, 222 245, 262 225 C 302 205, 328 222, 340 250 C 352 278, 340 305, 310 312 C 280 319, 230 330, 205 310 Z" stroke="var(--accent)" stroke-width="1.8" opacity="0.72"/>
+      <path d="M245 288 C 258 270, 256 250, 280 238 C 304 226, 318 236, 325 253 C 332 270, 325 286, 307 291 C 289 296, 258 302, 245 288 Z" fill="var(--accent)" opacity="0.85"/>
+    </svg>
+
+    <div class="wrap">
+      <p class="eyebrow"><span class="dot"></span> Thermal Simulation · Inverse Problems · Physics-Informed ML</p>
+      <h1 class="hero-name" id="heroName">Dr.-Ing. Suresh Babu Gopalkrishna</h1>
+      <p class="hero-tagline" id="heroTagline"></p>
+
+      <div class="status-banner">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 8v5l3 2M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span id="statusText"></span>
+      </div>
+
+      <div class="contact-row" id="contactRow"></div>
+    </div>
+  </header>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <div class="wrap">
+      <p class="lede" id="aboutText"></p>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head">
         <div>
-          <h3>Researcher — Inverse Problems &amp; Scientific Machine Learning</h3>
-          <p>
-            Developing PINN-based methods to reconstruct unknown surface heat flux
-            during metal quenching. Building and analysing 2D/3D FEM and COMSOL
-            models; validating inverse models with infrared thermography; contributing
-            to experimental planning, data analysis and student supervision.
-          </p>
+          <span class="section-index">01</span>
+          <h2>Experience</h2>
         </div>
-      </article>
+        <p class="section-sub">Roles highlighted match the Research / Industry toggle above.</p>
+      </div>
+      <ul class="timeline" id="timelineList"></ul>
+    </div>
+  </section>
 
-      <article>
-        <p class="date">2018 — 2023</p>
+  <!-- ================= EDUCATION ================= -->
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head">
         <div>
-          <h3>Research Associate — Thermal Experimental &amp; Simulation</h3>
-          <p><strong>Otto von Guericke University Magdeburg, Germany</strong></p>
-          <p>
-            Planned quenching experiments, created FEM models in MATLAB, ANSYS and
-            COMSOL, developed inverse heat-conduction methods, and taught Advanced
-            Heat and Mass Transfer.
-          </p>
+          <span class="section-index">02</span>
+          <h2>Education</h2>
         </div>
-      </article>
+      </div>
+      <div class="edu-grid" id="educationGrid"></div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="publications" class="section dark">
-  <div class="container">
-    <p class="eyebrow">SELECTED PUBLICATIONS</p>
-    <h2>Peer-reviewed thermal engineering research.</h2>
+  <!-- ================= RESEARCH ================= -->
+  <section id="research">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="section-index">03</span>
+          <h2>Research</h2>
+        </div>
+        <p class="section-sub" id="researchSummary"></p>
+      </div>
 
-    <p>
-      <a class="email"
-         href="https://scholar.google.com/citations?user=qLmcb7cAAAAJ&hl=en"
-         target="_blank"
-         rel="noopener">
-        Google Scholar profile
-      </a>
-      — 73 citations · h-index 5 · i10-index 2 (accessed August 2026)
-    </p>
-
-    <ol class="publications">
-      <li>
-        <strong>Gopalkrishna, S. B.</strong>, Nallathambi, A. K., &amp; Specht, E.
-        (2026). <em>Inverse Heat Conduction Method to Estimate Heat Flux during
-        Quenching of Hot Metals with Infrared Thermography Measurements.</em>
-        Applied Thermal Engineering, revised and resubmitted.
-      </li>
-
-      <li>
-        <strong>Gopalkrishna, S. B.</strong>, Kulkarni, G. A., Ryll, S., &amp;
-        Specht, E. (2025). <em>Heat Transfer Analysis during Quenching of Moving
-        Metal Plates using Water Jets from a Mold.</em> Thermal Science and
-        Engineering Progress, 103792.
-      </li>
-
-      <li>
-        Murugesan, S. P. S. S., Remani, J. P. J.,
-        <strong>Gopalkrishna, S. B.</strong>, Nallathambi, A. K., Juhre, D.,
-        &amp; Specht, E. (2024). <em>Experimental Investigation of Heat Transfer
-        During Quenching of Semi-Solid Aluminium Plate under Hot Cracking Condition.</em>
-        Thermal Science and Engineering Progress.
-      </li>
-
-      <li>
-        Narayan, N. M., <strong>Gopalkrishna, S. B.</strong>, Mehdi, B., Ryll, S.,
-        Fritsching, U., &amp; Specht, E. (2023). <em>Multiphase numerical modeling
-        of boiling flow and heat transfer for liquid jet quenching of a moving
-        metal plate.</em> International Journal of Thermal Sciences, 194, 108587.
-      </li>
-
-      <li>
-        <strong>Gopalkrishna, S. B.</strong>, &amp; Specht, E. (2022).
-        <em>Inverse Heat Conduction Method to Estimate the Unknown Surface Heat
-        Flux during Quenching Process.</em> 7th Thermal and Fluids Engineering
-        Conference, Las Vegas, USA.
-      </li>
-    </ol>
-  </div>
-</section>
-
-<section id="cv" class="section muted">
-  <div class="container">
-    <p class="eyebrow">CURRICULUM VITAE</p>
-    <h2>Professional CV</h2>
-
-    <p>
-      View my detailed CV directly below or open the PDF in a new browser tab.
-    </p>
-
-    <div style="height: 900px; border: 1px solid #d5e2f2; border-radius: 5px; overflow: hidden; background: #ffffff;">
-      <iframe
-        src="assets/SureshGopalkrishna_CV.pdf"
-        title="Dr.-Ing. Suresh Gopalkrishna — Curriculum Vitae"
-        style="width: 100%; height: 100%; border: 0;">
-      </iframe>
+      <details class="research-block" id="researchDetails">
+        <summary>Publications, supervision, teaching &amp; grants</summary>
+        <div class="research-groups" id="researchGroups"></div>
+      </details>
     </div>
+  </section>
 
-    <p style="margin-top: 24px;">
-      <a class="button primary"
-         href="assets/SureshGopalkrishna_CV.pdf"
-         target="_blank"
-         rel="noopener">
-        Open or download CV (PDF)
-      </a>
-    </p>
-  </div>
-</section>
-
-<section class="section education">
-  <div class="container">
-    <p class="eyebrow">EDUCATION</p>
-
-    <div class="cards compact">
-      <article>
-        <h3>Dr.-Ing., Thermal Engineering</h3>
-        <p>
-          Otto von Guericke University Magdeburg<br>
-          2019–2022 · <em>magna cum laude</em>
-        </p>
-      </article>
-
-      <article>
-        <h3>M.Sc., Chemical &amp; Energy Engineering</h3>
-        <p>
-          Otto von Guericke University Magdeburg<br>
-          2016–2018 · Thesis grade: 1.3
-        </p>
-      </article>
-
-      <article>
-        <h3>B.E., Mechanical Engineering</h3>
-        <p>
-          Visvesvaraya Technological University<br>
-          2011–2015
-        </p>
-      </article>
+  <!-- ================= SKILLS ================= -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="section-index">04</span>
+          <h2>Skills</h2>
+        </div>
+      </div>
+      <div class="skills-grid" id="skillsGrid"></div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="section-index">05</span>
+          <h2>Projects</h2>
+        </div>
+        <p class="section-sub">Pulled live from GitHub — <span id="githubUserLabel"></span></p>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+      <p class="projects-status" id="projectsStatus"></p>
+    </div>
+  </section>
+
+  <!-- ================= CERTIFICATIONS ================= -->
+  <section id="certifications">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="section-index">06</span>
+          <h2>Courses &amp; Certifications</h2>
+        </div>
+        <p class="section-sub">Click any certificate to open the original file.</p>
+      </div>
+
+      <div class="cert-filters" id="certFilters"></div>
+      <div class="cert-grid" id="certGrid"></div>
+    </div>
+  </section>
 
 </main>
 
-<footer id="contact">
-  <div>
-    <p class="eyebrow">LET'S CONNECT</p>
-    <h2>Interested in simulation, R&amp;D, or scientific ML collaboration?</h2>
-
-    <a class="email" href="mailto:suresh.gopalkrishna@icloud.com">
-      suresh.gopalkrishna@icloud.com
-    </a>
-
-    <p style="margin-top: 24px;">
-      <a class="button secondary"
-         href="assets/SureshGopalkrishna_CV.pdf"
-         target="_blank"
-         rel="noopener">
-        Download CV (PDF)
-      </a>
-    </p>
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-name" id="footerName"></p>
+      <p class="footer-note">Built as a static site — theme colours are user-selectable and persist between visits on this device.</p>
+    </div>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
   </div>
-
-  <p class="copyright">© 2026 Dr.-Ing. Suresh Gopalkrishna</p>
 </footer>
 
+<!-- PDF.js (for rendering certificate PDFs — page 1 → canvas) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+<script src="js/palettes-data.js"></script>
+<script src="js/profile-data.js"></script>
+<script src="js/certs-data.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
