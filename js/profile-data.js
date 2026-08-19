@@ -5,7 +5,7 @@
  */
 
 const PROFILE = {
-  name: "Suresh Babu Gopalkrishna",
+  name: "Suresh Gopalkrishna",
   credentials: "Dr.-Ing.",
   tagline: "Simulation & Machine Learning Engineer — Heat Transfer, Inverse Problems, Physics-Informed Neural Networks",
   location: "Munich (Neuried), Germany",
