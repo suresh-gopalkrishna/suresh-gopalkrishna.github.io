@@ -38,7 +38,7 @@ const CERTIFICATIONS = [
     issuer: "IBM · Coursera",
     date: "2026-07-26",
     category: "Programming & Data Science",
-    file: "assets/_what-is-data-science-ibm-coursera-2026.pdf",
+    file: "assets/what-is-data-science-ibm-coursera-2026.pdf",
     verifyUrl: "https://coursera.org/verify/012NCSUI90PV"
   },
   {
