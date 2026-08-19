@@ -11,7 +11,7 @@ const PROFILE = {
   location: "Munich (Neuried), Germany",
   status: "Open to new opportunities in Simulation, CFD & Heat Transfer — deepening AI/ML skills for engineering applications",
   email: "suresh.gopalkrishna@icloud.com",
-  phone: "+49 162 793 3085",
+  // phone: "+49 162 793 3085",
   github: "suresh-gopalkrishna", // GitHub username used to pull public repositories
   links: [
     { label: "LinkedIn", url: "https://www.linkedin.com/in/sureshgopalkrishna/" },
@@ -160,13 +160,13 @@ const PROFILE = {
   research: {
     summary: "Seven journal publications, nine conference papers/presentations and seven master's theses supervised in heat transfer, inverse problems and thermal process engineering. Full list below.",
     journalPublications: [
+      "S. B. Gopalkrishna, A. K. Nallathambi, E. Specht, \"Inverse Heat Conduction Method to Estimate Heat Flux during Quenching of Hot Metals with Infrared Thermography Measurements,\" Applied Thermal Engineering, Vol. 304, Part 2, 132481, 2026.",
       "S. B. Gopalkrishna, G. A. Kulkarni, S. Ryll, E. Specht, \"Heat Transfer Analysis during Quenching of Moving Metal Plates using Water Jets from a Mold,\" Thermal Science and Engineering Progress, Vol. 64, 103792, 2025.",
       "A. Dernbecher, S. Bhaskaran, N. Vorhauer-Huget, J. Seidenbecher, S. Gopalkrishna, L. Briest, A. Dieguez-Alonso, \"Investigation on the intra-particle anisotropic transport properties of a beech wood particle during pyrolysis,\" Particuology, Vol. 98, pp. 172–190, 2025.",
       "S. Palaniswamy, S. Murugesan, J. J. P. Remani, S. B. Gopalkrishna, A. K. Nallathambi, D. Juhre, E. Specht, \"Experimental Investigation of Heat Transfer during Quenching of Semi-solid Aluminium Plate under Hot Cracking Condition,\" Thermal Science and Engineering Progress, Vol. 48, 102372, 2024.",
       "N. M. Narayan, S. B. Gopalkrishna, B. Mehdi, S. Ryll, U. Fritsching, E. Specht, \"Multiphase numerical modeling of boiling flow and heat transfer for liquid jet quenching of a moving metal plate,\" International Journal of Thermal Sciences, Vol. 194, 108587, 2023.",
       "N. Vorhauer-Huget, J. Seidenbecher, S. Bhaskaran, F. Schenkel, L. Briest, S. Gopalkrishna, J. Barowski, A. Dernbecher, L. Hilfert, I. Rolfes, A. Dieguez-Alonso, \"Dielectric and physico-chemical behavior of single thermally thick wood blocks under microwave assisted pyrolysis,\" Particuology, Vol. 86, pp. 291–303, 2023.",
-      "S. B. Gopalkrishna, A. K. Nallathambi, E. Specht, \"Inverse Heat Conduction Method to Estimate Heat Flux during Quenching of Hot Metals with Infrared Thermography Measurements,\" Applied Thermal Engineering, under review, 2026.",
-      "S. B. Gopalkrishna, E. Specht, \"Physics-Informed Neural Networks for Two-Dimensional Transient Inverse Heat Conduction: Surface Heat Flux Recovery from Infrared Thermography during Aluminium Alloy Quenching,\" AI Thermal Fluids, manuscript in preparation, 2026."
+      "S. B. Gopalkrishna, E. Specht, \"Physics-Informed Neural Networks for Two-Dimensional Transient Inverse Heat Conduction: Surface Heat Flux Recovery from Infrared Thermography during Aluminium Alloy Quenching,\" AI Thermal Fluids, in progress, 2026."
     ],
     conferencePapers: [
       "\"Inverse Heat Conduction Method to Estimate the Unknown Surface Heat Flux during Quenching Process,\" 7th Thermal and Fluids Engineering Conference (TFEC), Las Vegas, USA, May 2022.",
