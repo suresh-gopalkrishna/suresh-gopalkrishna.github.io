@@ -1,0 +1,37 @@
+{
+  "black_brown_granite_beige": [
+    { "name": "Black", "hex": "#000000" },
+    { "name": "Granite", "hex": "#B7A7A9" },
+    { "name": "Brown", "hex": "#91766E" },
+    { "name": "Beige", "hex": "#F6ECE3" },
+    { "name": "White", "hex": "#FFFFFF" }
+  ],
+  "cocoa_sage_peach": [
+    { "name": "Cocoa", "hex": "#664E44", "rgb": [102, 78, 68] },
+    { "name": "Dusty", "hex": "#B08B7F", "rgb": [176, 139, 127] },
+    { "name": "Peach", "hex": "#FFE8D6", "rgb": [255, 232, 214] },
+    { "name": "Cream", "hex": "#FAF4E5", "rgb": [250, 244, 229] },
+    { "name": "Sage", "hex": "#C7C3B0", "rgb": [199, 195, 176] }
+  ],
+  "creme_cinna_chai": [
+    { "name": "Creme", "hex": "#CDC6C3", "rgb": [204, 198, 195] },
+    { "name": "Cinna", "hex": "#CFB3A9", "rgb": [207, 179, 169] },
+    { "name": "Froth", "hex": "#F1EEEB", "rgb": [241, 238, 235] },
+    { "name": "Latte", "hex": "#A09086", "rgb": [160, 144, 134] },
+    { "name": "Chai", "hex": "#E4D8CB", "rgb": [228, 216, 203] }
+  ],
+  "navy_teal_skyblue_white": [
+    { "name": "Navy", "hex": "#2F4156" },
+    { "name": "Teal", "hex": "#567C8D" },
+    { "name": "Sky Blue", "hex": "#C8D9E6" },
+    { "name": "Beige", "hex": "#F5EEEB" },
+    { "name": "White", "hex": "#FFFFFF" }
+  ],
+  "shades_of_blue": [
+    { "name": "Cloud Blue", "hex": "#EDF4FA" },
+    { "name": "Calm Ocean", "hex": "#8FB6D8" },
+    { "name": "Powder Sky", "hex": "#CFE3F1" },
+    { "name": "Dusty Denim", "hex": "#5F86A6" },
+    { "name": "Midnight Blue", "hex": "#243A5E" }
+  ]
+}
