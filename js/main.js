@@ -191,7 +191,7 @@
     const contactRow = document.getElementById("contactRow");
     const items = [
       { label: `✉ ${PROFILE.email}`, url: `mailto:${PROFILE.email}` },
-      { label: `☎ ${PROFILE.phone}`, url: `tel:${PROFILE.phone.replace(/\s+/g, "")}` },
+      // { label: `☎ ${PROFILE.phone}`, url: `tel:${PROFILE.phone.replace(/\s+/g, "")}` },
       { label: `📍 ${PROFILE.location}`, url: null },
       ...PROFILE.links.map(l => ({ label: l.label, url: l.url }))
     ];
