@@ -11,7 +11,6 @@ const PROFILE = {
   location: "Munich (Neuried), Germany",
   status: "Open to new opportunities in Simulation, CFD & Heat Transfer — deepening AI/ML skills for engineering applications",
   email: "suresh.gopalkrishna@icloud.com",
-  // phone: "+49 162 793 3085",
   github: "suresh-gopalkrishna", // GitHub username used to pull public repositories
   links: [
     { label: "LinkedIn", url: "https://www.linkedin.com/in/sureshgopalkrishna/" },
