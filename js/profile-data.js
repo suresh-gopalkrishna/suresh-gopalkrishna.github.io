@@ -37,8 +37,8 @@ const PROFILE = {
     },
     {
       start: "2023-06", end: null,
-      role: "Collaborative / Independent Researcher — Thermal Simulation",
-      org: "Institute of Thermodynamics and Fluid Dynamics, Otto von Guericke University Magdeburg",
+      role: "Research Consultant",
+      org: "Otto von Guericke University Magdeburg (OvGU)",
       location: "Magdeburg, Germany",
       tags: ["research"],
       bullets: [
@@ -126,7 +126,6 @@ const PROFILE = {
       degree: "Doctor of Engineering (Dr.-Ing.) — Process and Systems Engineering",
       org: "Otto von Guericke University Magdeburg — Institute of Fluid Dynamics and Thermodynamics",
       location: "Magdeburg, Germany",
-      grade: "magna cum laude",
       detail: "Thesis: Local Heat Transfer and Stress Analysis during Quenching of Moving Metal Plates using Array of Jets. Supervisor: Prof. Eckehard Specht."
     },
     {
@@ -134,7 +133,6 @@ const PROFILE = {
       degree: "Master of Science (M.Sc.) — Chemical and Energy Engineering",
       org: "Otto von Guericke University Magdeburg",
       location: "Magdeburg, Germany",
-      grade: "Thesis grade 1.3 (sehr gut)",
       detail: "Thesis: Thermal Stresses in Quenching of Plate by Array of Jets and Sprays."
     },
     {
@@ -142,7 +140,6 @@ const PROFILE = {
       degree: "Bachelor of Engineering (B.E.) — Mechanical Engineering",
       org: "AMC Engineering College, Visvesvaraya Technological University",
       location: "Bengaluru, India",
-      grade: "First Class with Distinction (German scale 1.9)",
       detail: "Thesis: Development and Testing of a Pneumatic Engine."
     }
   ],
@@ -157,7 +154,7 @@ const PROFILE = {
   },
 
   research: {
-    summary: "Seven journal publications, nine conference papers/presentations and seven master's theses supervised in heat transfer, inverse problems and thermal process engineering. Full list below.",
+    summary: "Six journal publications, one manuscript in progress, nine conference papers/presentations and seven master's theses supervised in heat transfer, inverse problems and thermal process engineering. Full list below.",
     journalPublications: [
       "S. B. Gopalkrishna, A. K. Nallathambi, E. Specht, \"Inverse Heat Conduction Method to Estimate Heat Flux during Quenching of Hot Metals with Infrared Thermography Measurements,\" Applied Thermal Engineering, Vol. 304, Part 2, 132481, 2026.",
       "S. B. Gopalkrishna, G. A. Kulkarni, S. Ryll, E. Specht, \"Heat Transfer Analysis during Quenching of Moving Metal Plates using Water Jets from a Mold,\" Thermal Science and Engineering Progress, Vol. 64, 103792, 2025.",
