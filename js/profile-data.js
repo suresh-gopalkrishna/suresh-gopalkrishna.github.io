@@ -49,28 +49,6 @@ window.PROFILE = {
       ]
     },
     {
-      start: "2025-03", end: "2026-06",
-      role: "Simulation Engineer",
-      org: "Integrated Thermal Research Private Limited",
-      location: "Bengaluru, India",
-      tags: ["industry"],
-      bullets: [
-        "Developed thermal simulation solutions focused on Physics-Informed Neural Networks (PINNs), scientific machine learning and computational heat transfer.",
-        "Built Python and TensorFlow workflows for data analysis, neural network training, model validation and thermal simulation using experimental temperature data."
-      ]
-    },
-    {
-      start: "2024-04", end: "2024-07",
-      role: "Research Engineer II — Physical Modeling",
-      org: "BERT Labs Private Limited",
-      location: "Bengaluru, India",
-      tags: ["research", "industry"],
-      bullets: [
-        "Applied first-principles calculations and reduced-order modeling for physics-based process analysis.",
-        "Performed data analysis and feature selection for process modeling and engineering applications."
-      ]
-    },
-    {
       start: "2022-11", end: "2023-05",
       role: "Post-Doctoral Researcher — Experimental & Numerical Modelling",
       org: "Otto von Guericke University Magdeburg (LTV / WSÜ)",
