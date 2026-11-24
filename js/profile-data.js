@@ -4,7 +4,7 @@
  * Edit this file to update CV content. Everything here is rendered by js/main.js.
  */
 
-const PROFILE = {
+window.PROFILE = {
   name: "Suresh Gopalkrishna",
   credentials: "Dr.-Ing.",
   tagline: "Simulation & Machine Learning Engineer — Heat Transfer, Inverse Problems, Physics-Informed Neural Networks",

@@ -16,7 +16,7 @@
  *   verifyUrl  - optional public verification link ("" if none)
  */
 
-const CERTIFICATIONS = [
+window.CERTIFICATIONS = [
   {
     title: "Advanced Learning Algorithms",
     issuer: "DeepLearning.AI · Stanford Online",

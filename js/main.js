@@ -102,7 +102,9 @@
   const githubUserLabel = document.getElementById("githubUserLabel");
   const projectsGrid = document.getElementById("projectsGrid");
   const projectsStatus = document.getElementById("projectsStatus");
-  const EXCLUDED_REPOS = ["github-slideshow", P.github ? P.github.toLowerCase() : ""];
+  // boilflux is shown as the featured project above the live list.
+  const EXCLUDED_REPOS = ["github-slideshow", "boilflux", P.github ? P.github.toLowerCase() : "",
+    P.github ? `${P.github.toLowerCase()}.github.io` : ""];
 
   if (P.github) {
     githubUserLabel.textContent = `@${P.github}`;
@@ -142,13 +144,17 @@
         });
       })
       .catch(() => {
-        projectsStatus.textContent = "Unable to load repositories right now.";
+        // GitHub's API limits anonymous requests; fall back to a plain link.
+        projectsStatus.innerHTML = `See all repositories on <a href="https://github.com/${P.github}?tab=repositories" target="_blank" rel="noopener">GitHub</a>.`;
       });
   }
 
   const certsSection = document.getElementById("certifications");
-  const CERTS = window.CERTS;
-  if (Array.isArray(CERTS) && CERTS.length) {
+  // certs-data.js defines window.CERTIFICATIONS with { file, verifyUrl }; newest first.
+  const CERTS = (window.CERTIFICATIONS || window.CERTS || [])
+    .map((c) => ({ ...c, url: c.verifyUrl || c.url || c.file }))
+    .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+  if (CERTS.length) {
     const certFilters = document.getElementById("certFilters");
     const certGrid = document.getElementById("certGrid");
     const categories = ["All", ...new Set(CERTS.map((c) => c.category).filter(Boolean))];

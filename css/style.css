@@ -240,6 +240,56 @@ body {
 .project-card p { margin: 0 0 10px; color: var(--text-muted); font-size: 0.88rem; min-height: 36px; }
 .project-meta { display: flex; gap: 12px; font-size: 0.78rem; color: var(--text-muted); font-family: var(--font-mono); }
 .projects-status { color: var(--text-muted); font-size: 0.88rem; }
+.projects-status a { color: var(--accent); }
+.projects-more { margin: 0 0 16px; }
+
+/* Featured project */
+.featured-project {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: 28px;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 36px;
+}
+.featured-art {
+  border-radius: 10px;
+  padding: 14px;
+  background:
+    radial-gradient(500px 160px at 110% 120%, rgba(242,107,29,.5), transparent 60%),
+    radial-gradient(400px 140px at -10% -20%, rgba(76,195,255,.3), transparent 60%),
+    linear-gradient(135deg, #0a1b2e 0%, #0f2742 55%, #1d3d63 100%);
+}
+.featured-art img { display: block; width: 100%; height: auto; }
+.featured-label {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #c2531a;
+  margin: 0 0 6px;
+}
+.featured-text h3 { margin: 0 0 8px; font-size: 1.35rem; }
+.featured-text p { color: var(--text-muted); font-size: 0.94rem; margin: 0 0 14px; }
+.featured-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.featured-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.featured-links a:first-child { background: var(--accent); border-color: var(--accent); color: #fff; }
+.featured-links a:hover { border-color: var(--accent); color: var(--accent); }
+.featured-links a:first-child:hover { color: #fff; opacity: 0.92; }
+@media (max-width: 720px) {
+  .featured-project { grid-template-columns: minmax(0, 1fr); padding: 16px; gap: 18px; }
+}
 
 /* Certifications */
 .cert-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }

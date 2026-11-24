@@ -87,8 +87,28 @@
     <div class="wrap">
       <div class="section-head">
         <h2>Projects</h2>
-        <p class="section-sub">Pulled live from GitHub — <span id="githubUserLabel"></span></p>
       </div>
+
+      <article class="featured-project">
+        <div class="featured-art">
+          <img src="assets/boilflux-setup.svg" alt="A water jet quenches a hot plate moving to the left; an IR camera measures the back-face temperature, from which BoilFlux infers the unknown surface heat flux." loading="lazy">
+        </div>
+        <div class="featured-text">
+          <p class="featured-label">Featured open-source project</p>
+          <h3>BoilFlux</h3>
+          <p>Open inverse heat transfer for boiling and quenching. BoilFlux reconstructs the transient,
+          spatially resolved heat flux on a quenched, moving hot plate from infrared thermography of its
+          back face, using a nonlinear 3D model and the adjoint conjugate-gradient method. It includes
+          boiling-regime analysis, a neural-operator prototype for boiling flow, and benchmarks with known
+          ground truth.</p>
+          <div class="featured-links">
+            <a href="https://suresh-gopalkrishna.github.io/boilflux/" target="_blank" rel="noopener">Website</a>
+            <a href="https://github.com/suresh-gopalkrishna/boilflux" target="_blank" rel="noopener">Source code</a>
+          </div>
+        </div>
+      </article>
+
+      <p class="section-sub projects-more">More on GitHub — <span id="githubUserLabel"></span></p>
       <div class="projects-grid" id="projectsGrid"></div>
       <p class="projects-status" id="projectsStatus"></p>
     </div>
@@ -114,7 +134,7 @@
 </footer>
 
 <script src="js/profile-data.js"></script>
-<script src="js/certs-data.js" onerror="window.CERTS = window.CERTS || null;"></script>
+<script src="js/certs-data.js" onerror="window.CERTIFICATIONS = window.CERTIFICATIONS || [];"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
