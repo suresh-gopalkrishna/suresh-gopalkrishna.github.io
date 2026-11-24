@@ -21,7 +21,7 @@ window.PROFILE = {
     { label: "Website", url: "https://www.sureshgopalkrishna.com" }
   ],
 
-  about: "Mechanical engineer and Dr.-Ing. specialising in thermal simulation, inverse heat conduction and finite element analysis, with a growing focus on physics-informed machine learning for engineering problems. Background spans academic research (400+ quenching experiments, 1000+ FEM simulations, seven master's theses supervised) and industry roles applying scientific machine learning to thermal systems.",
+  about: "Mechanical engineer and Dr.-Ing. specialising in thermal simulation, inverse heat conduction and finite element analysis, with a growing focus on physics-informed machine learning for engineering problems. Background spans academic research (400+ quenching experiments, 1000+ FEM simulations, seven master's theses supervised), ongoing research consulting on physics-informed neural networks for transient heat transfer, and earlier industry experience in mechanical engineering.",
 
   experience: [
     {
